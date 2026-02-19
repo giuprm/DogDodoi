@@ -1,0 +1,175 @@
+.cabecalho{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    gap: 150px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.btnAvaliacao{
+    background-color: deeppink;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    width: 150px;
+    height:30px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dcd2f8;
+}
+
+.tituloBanner{
+    color: deeppink;
+    font-size: 40px;
+}
+
+.subtituloBanner{
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Dubai Light';
+}
+
+.imgCachorro{
+    width: 500px;
+    opacity: 0.5;
+}
+
+.btnBanner{
+    background-color: deeppink;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+}
+
+.bemVindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 40px;
+}
+
+.texto1,
+.texto2{
+    width: 50%;
+}
+
+.fundoBenefícios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%
+}
+
+.benefícios{
+    background-color: #e8f1fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloBenefícios{
+    color: deeppink;
+}
+
+.beneficio1,
+.beneficio2,
+.beneficio3{
+    color: deeppink;
+    text-align: center;
+}
+
+.beneficio1 img,
+.beneficio2 img,
+.beneficio3 img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoFormulario{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 295px;
+}
+
+.formAvaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoForms{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formAvaliacao input{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #cecece;
+    box-shadow: 2px 3px 2px #cecece;
+}
+
+.btnFormAvaliacao{
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bfb0da;
+}
+
+.logoZap{
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
